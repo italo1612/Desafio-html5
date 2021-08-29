@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face{
+    font-family:'idroid';
+    src: url('fonts/idroid.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal; 
+
+
+}
+body{
+    background-color: #84E1AD;
+    margin:0px;
+}
+header{
+    /*background-color: #045225;*/
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px;
+    height: 150px;
+    background-image: linear-gradient(to bottom, #1cc462, #024920f8);
+    /*box-shadow: 0px 2px 6px 1px #0000007a;*/
+}
+header > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 5px 14px #01240f;
+    font-style: normal;
+}
+header > p{
+    color: #ffffffe1;
+    text-align: center;
+    
+}
+nav{
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+nav >a{
+    color: white;
+    text-decoration: none;
+    margin-right:30px;
+    
+}
+nav > a:hover{
+    color: black;
+
+}
+main{
+    background-color: white ;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 2px 6px 1px #0000007a;
+    margin-top: 1px;
+    
+}
+div{
+    background-color: white ;
+    margin: auto;
+    padding: 20px;
+    width: 780px;
+    margin-top: 2px;
+    height: 450px;
+    box-shadow: 0px 2px 6px 1px #0000007a;
+    
+}
+.video{
+    background-color:  #044d04e7;
+    margin: auto;
+    padding: 20px;
+    width: 780px;
+    margin-top: 2px;
+    height: 335px;
+    box-shadow: 0px 2px 6px 1px #0000007a;  
+}
+div >iframe{
+    margin-left: 110px;
+    padding: 10px;
+
+}
+.android{
+    margin-left: 200px;
+}
+
+h2{
+    margin-top: 0px;
+    font-family:'idroid' ;
+    color: #044d04e7;
+}
+h3{
+    background-color:  #37925e;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+}
+article{
+    background-color:#84E1AD ;
+    margin-top: -20px;
+    border-radius: 5px;
+}
+
+
+section > h1{
+    margin-top: 0px;
+    font-family:'idroid' ;
+    color: #044d04e7;
+}
+
+        
+
+p{
+    text-indent: 2em;
+    text-align: justify; 
+      
+}
+footer{
+    background-color:#044d04e7;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    margin: 10px 0px 0px ;
+    font-size: 12px;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, #0c5e2e, #024920f8);
+}
